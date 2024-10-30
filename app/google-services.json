@@ -1,7 +1,7 @@
 {
   "project_info": {
     "project_number": "745782224025",
-    "firebase_url": "https://happiness-gar-default-rtdb.firebaseio.com",
+    "firebase_url": "FIREBASE_URL",
     "project_id": "happiness-gar",
     "storage_bucket": "happiness-gar.appspot.com"
   },
@@ -16,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDMdouVQ8OrfZYMr_RLu4L4aUR_gKCTQNk"
+          "current_key": "CURRENT_KEY"
         }
       ],
       "services": {
