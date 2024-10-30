@@ -18,7 +18,7 @@ Happiness Garden is a wellness app that gamifies the habit of self-reflection an
 - **Edit entries**: Users can update previous entries to reflect changes or add further thoughts.
 
 ## Background
-Created from 10.23.2024 to 10.30.2024. A week ago I found myself with a bit of free time and a curiosity to learn Kotlin. After watching introductory Kotlin YouTube videos, I decided to try working with the language myself by creating a personal app that I have been wanting to make for a while. I found that regularly reflecting on daily gratitudes and worries has always helped me feel happier and more relaxed. Inspired by this, I wanted to design an interactive tool that could make this practice more enjoyable, adding a touch of gamification to a habit that I personally try to do consistently as well.
+Created from 10.23.2024 to 10.30.2024. A week ago I found myself with a bit of free time and a curiosity to learn Kotlin. After watching a few introductory Kotlin YouTube videos, I decided to try working with the language myself by creating a personal app that I have been wanting to make for a while. I found that regularly reflecting on daily gratitudes and worries has always helped me feel happier and more relaxed. Inspired by this, I wanted to design an interactive tool that could make this practice more enjoyable, adding a touch of gamification to a habit that I personally try to do consistently as well. The general app idea was inspired by https://habitsgarden.com.
 
 ## Future Ideas
 - **Expanded entry input**: Allow users to rate their happiness and stress levels each day. They will be represented on the info card with the sun and rain emojis.
