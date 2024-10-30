@@ -5,6 +5,9 @@
 - **Kotlin**
 - **Firebase**
 
+## Video Demo
+[Happiness Garden Demo](https://www.dropbox.com/scl/fi/55nfmxu2dnm7zkaxhs9es/final-happy-vid.mp4?rlkey=xuu8pc3zv8mr2zhpa7osgaarc&st=oco7khkh&dl=0)
+
 ## Description
 Happiness Garden is a wellness app that gamifies the habit of self-reflection and gratitude. Each journal entry will add a new flower to a personalized garden, creating a visual representation of the user’s reflections over time. Users are prompted to write down what they are grateful for and any worries they may have, allowing for a balanced and mindful habit. The app is built in Kotlin and uses Firebase to manage user data and backend functionality.
 
