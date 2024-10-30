@@ -6,36 +6,6 @@
 - **Firebase**
 
 ## Description
-Happiness Garden allows users to create their own garden and plants flower in it with every journal entry they add. Each journal entry ask users to reflect on what they are grateful of and worried about that day. The goal is to gamified the habit of thinking about one's day. IT uses Kotlin for the main app and Firebase for the backend
-
-## Features
-- **User login**: Users can login to their own garden, and revisit their garden using their login
-- **Add new entry**: Adding a new entry with reflection on grateful and worries. WIll add new flower in their plot
-- **Different plots**: After a plot is filled up with 15 flowers, there will be navigation butotns to a new plot where users cna add more flowers
-- **Edit entries**
-
-## Background
-I found some free time last week and decided to try learning Kotlin, so after watching some introductary YouTube videos, I decided to build this app idea I have had for a while. As someone who loves journally and find myself signifcantly more relax and happier when I am in a habit of constantly writing down everything the small things that made smile that day as well as anything that's worring me/
-
-## Future Ideas
-  
-- **Add more input into the entries**: ALlow users to rank their happiness and stress level each day. Show on the info card using sun and rain emojis.
-
-- **Add calendar integration**: Use a calendar as the grid, add flowers on the date that they added each entry
-  
-- **Integrate Groq API**: Allow users to summarize their weeks and months using generative AI. Give reminders and advice to users on actions they used to do that they liked
-
-## Getting Started
-
-
-# Happiness Garden
-
-## Technologies
-
-- **Kotlin**
-- **Firebase**
-
-## Description
 Happiness Garden is a wellness app that gamifies the habit of self-reflection and gratitude. Each journal entry will add a new flower to a personalized garden, creating a visual representation of the user’s reflections over time. Users are prompted to write down what they are grateful for and any worries they may have, allowing for a balanced and mindful habit. The app is built in Kotlin and uses Firebase to manage user data and backend functionality.
 
 ## Features
