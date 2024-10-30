@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".fragments.SignUpFragment">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="148sp"
+        android:gravity="center"
+        android:text="email:"
+        android:textColor="@color/colorLight"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="0dp"
+        android:selectAllOnFocus="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        >
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/colorAccent"
+            android:background="@color/colorLight"
+            app:boxStrokeWidth="4dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:background="@color/colorLight"
+                android:paddingBottom="10dp"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16sp"
+        android:gravity="center"
+        android:text="password:"
+        android:textColor="@color/colorLight"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
+        android:selectAllOnFocus="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        >
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorLight"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="15dp"
+                android:background="@color/colorLight"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:paddingBottom="10dp"
+                android:paddingStart="12dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Title plack -->
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/login_title_plack" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="44sp"
+        android:gravity="center"
+        android:text="sign up"
+        android:textColor="@color/colorLight"
+        android:textSize="52sp"
+        android:textStyle="italic|bold" />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/email"-->
+    <!--        android:layout_width="380dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="0dp"-->
+    <!--        android:layout_marginBottom="52dp"-->
+    <!--        android:layout_marginEnd="0dp"-->
+    <!--        android:hint="@string/prompt_email"-->
+    <!--        android:inputType="textEmailAddress"-->
+    <!--        android:selectAllOnFocus="true"-->
+    <!--        android:layout_gravity="center_vertical|center_horizontal"/>-->
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/password"-->
+    <!--        android:layout_width="380dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="12dp"-->
+    <!--        android:hint="@string/prompt_password"-->
+    <!--        android:imeActionLabel="@string/action_sign_in_short"-->
+    <!--        android:imeOptions="actionDone"-->
+    <!--        android:inputType="textPassword"-->
+    <!--        android:selectAllOnFocus="true"-->
+    <!--        android:layout_gravity="center_vertical|center_horizontal"/>-->
+
+
+
+    <!-- Sign in  -->
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="128dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/login_next_plack" />
+
+    <TextView
+        android:id="@+id/createAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="126dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:enabled="true"
+        android:textColor="@color/colorLight"
+        android:text="sign up"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+    <!-- Nav to sign up -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="-8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/login_nav_plack" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="138dp"
+        android:layout_marginStart="22dp"
+        android:gravity="center"
+        android:text="returning \n gardener?"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/navToSignIn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="sign in"
+        android:textColor="@color/colorLight"
+        android:textStyle="bold"
+        android:layout_marginBottom="86dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:layout_gravity="bottom|start"
+        android:textSize="20sp"/>
+
+</FrameLayout>
